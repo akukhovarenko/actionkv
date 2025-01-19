@@ -3,7 +3,7 @@ use byteorder::LittleEndian;
 use byteorder::{ReadBytesExt, WriteBytesExt};
 use serde_derive::{Serialize, Deserialize};
 
-type ByteString = Vec<u8>;
+pub type ByteString = Vec<u8>;
 type ByteStr = [u8];
 
 #[derive(Debug)]
